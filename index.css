@@ -1,0 +1,200 @@
+body {
+  background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.63),rgba(128, 128, 128, 0));
+  box-shadow:inset 0px 0px 20px rgb(150, 208, 245);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  opacity: 0.99;
+  margin: 60px auto;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.container:hover {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  transition:ease .7s ;
+  transform: scale(1.1,1.1);
+  background-image: radial-gradient(rgba(88, 88, 88, 0.411),rgba(27, 26, 26, 0.774));
+  box-shadow:inset 0px 0px 20px rgb(255, 255, 255);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  margin: 60px auto;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  -webkit-transition:ease .7s ;
+  -moz-transition:ease .7s ;
+  -ms-transition:ease .7s ;
+  -o-transition:ease .7s ;
+  -webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+  -ms-transform: scale(1.1,1.1);
+  -o-transform: scale(1.1,1.1);
+}
+.media-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 60px auto 30px auto;
+    width: 95%;
+    height: 30px;
+    text-align: center;
+}
+.facebook-link{
+    width: 40%;
+ background-color: rgb(19, 11, 122);
+ padding: 5px;
+ 
+}
+
+.twiter-link{
+    width: 40%;
+ background-color: rgb(0, 142, 185);
+  padding: 5px;
+  
+}
+
+.media-buttons a{
+    text-decoration: none;
+    color: white;
+}
+.media-buttons i::before{
+    margin: 7px;
+}
+.media-buttons a:hover{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  transition:ease-in-out .4s ;
+  -o-border-radius: 10px;
+  -webkit-transition:ease-in-out .4s ;
+  -moz-transition:ease-in-out .4s ;
+  -ms-transition:ease-in-out .4s ;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.404);
+  -o-transition:ease-in-out .4s ;
+}
+.container .or-button{
+    margin:0px auto 10px auto;
+    background-color: rgb(247, 148, 0);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.or-button:hover{
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.678);
+
+}
+
+.form .buttons {
+  display: flex;
+  margin: 10px auto 30px auto;
+  height: 35px;
+  width: 350px;
+  background-color: rgba(114, 114, 114, 0.507);
+  box-shadow:inset 0px 0px 10px 2px rgb(255, 255, 255);
+  padding: 0 0 0 10px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.buttons:hover{
+  box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+}
+
+.labels{
+    display: flex;
+    margin: 0px 40px 0px 80px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.flex-div,.submit-button.flex-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5px;
+}
+.submit-button{
+    margin: 20px auto;
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.404);
+    border: 1px solid rgba(255, 255, 255, 0.048);
+}
+.submit-button:hover{
+    cursor: pointer;
+}
+.flex-div{
+    justify-content: space-evenly;
+    width: 400px;
+    margin: 10px auto;
+        display: flex;
+    justify-content: space-evenly;
+    color: beige;
+
+}
+.flex-div div{
+    border: 1px solid white;
+    height: 25px;
+}
+.flex-div a{
+    text-decoration: none;
+color: rgb(255, 255, 255);
+}
+
+.flex-div a:hover{
+    text-decoration: underline;
+color: rgba(0, 89, 255, 0.89);
+font-weight: bolder;
+font-size: 20px;
+
+}
+.remembering{
+    margin-left: 80px;
+}
+.remembering label {
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 18px;
+}
